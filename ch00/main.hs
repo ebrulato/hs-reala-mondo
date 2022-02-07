@@ -1,9 +1,9 @@
 {-
    Æapitro 0
-   Nombri la liniojn
+   Nombri la vortojn
 -}
 
 
 main =
-  interact nombriLiniojn
-  where nombriLiniojn input = (show . length . lines $ input) ++ "\n"
+  interact nombriVortojn
+  where nombriVortojn input = (show . length . words $ input) ++ "\n"
